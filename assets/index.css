@@ -1,0 +1,117 @@
+:root{
+     --naranja: hsl(31, 77%, 52%);
+     --militar: hsl(184, 100%, 22%);
+     --bottle:  hsl(179, 100%, 13%);
+     --texto:   hsla(0, 0%, 100%, 0.75);
+  --background: hsl(0, 0%, 95%);
+
+}
+
+body{
+    background-color: var(--background);
+}
+
+@media screen and (max-width: 1440px) {
+    .contenedor{
+        width: 60%;
+        display: flex;
+        margin: auto;
+        padding-top: 8%;
+        justify-content: left;
+        text-align: left;
+    }
+    .caja1{
+        background-color: var(--naranja);
+    }
+    .caja2{
+        background-color: var(--militar);
+    }
+    .caja3{
+        background-color: var(--bottle) ;
+    }
+    img{
+        margin: 10% 10% 0% 10%;
+    }
+    h1{
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display', cursive;
+        color: var(--background);
+        font-weight: 700;
+        padding: 8%;
+        margin: 5%;
+    }
+    .text{
+        font-family: 'Lexend Deca', sans-serif;
+        color: var(--texto);
+        font-size: 1em;
+        padding: 8%;
+        margin: 5%;
+        font-weight: 400;
+    }
+    .LeanMore1, .LeanMore2, .LeanMore3{
+        background-color: var(--background);
+        font-size: 0.9em;
+        margin: 10%;
+        padding: 4.8%;
+        border: none;
+        border-radius: 16.5px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+    }
+    .LeanMore1{
+        color: var(--naranja);
+        margin: 10% 9% 9% 9%;
+    }
+    .LeanMore2{
+        color: var(--militar);
+        margin: 7% 9% 9% 9%;
+    }
+    .LeanMore3{
+        color: var(--bottle);
+        margin: 7% 9% 9% 9%;
+    }
+
+    .attribution { 
+        font-size: 1em; 
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+        justify-content: center;
+    }
+    .attribution a { 
+        color: hsl(138, 100%, 40%); 
+    }
+    .attribution .creator{
+        color: black;
+    }
+
+}
+
+@media (max-width:765px) {
+    .contenedor{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 3.2%;
+    }
+    img{
+        padding: 0% 0% 2.2% 2.2% ;
+    }
+    h1{
+        /* padding: 8.5; */
+        margin: 2.5%;
+    }
+    .text{ 
+        padding: 0% 8% 0% 8%;
+        margin: 2%;
+    }
+    .attribution { 
+        font-size: 1em; text-align: center;
+        padding: 2%;
+        display: flex; 
+        flex-direction:column;
+        justify-content: center;
+    }
+}
