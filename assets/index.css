@@ -57,6 +57,7 @@ body{
         border-radius: 16.5px;
         font-family: 'Lexend Deca', sans-serif;
         font-weight: 400;
+        cursor: pointer;
     }
     .LeanMore1{
         color: var(--naranja);
